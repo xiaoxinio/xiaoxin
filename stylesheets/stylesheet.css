@@ -150,3 +150,43 @@ a {
 @media(max-width: 1199px) and (min-width: 992px){.laptop{width:900px}.laptop .laptop-screen{height:374px}}
 @media (min-width:768px) and (max-width:991px){.laptop-container{margin-top:-300px}.laptop{width:650px}.laptop .laptop-bezel{padding:25px 25px 30px}.laptop .laptop-screen{height:265px}}
 @media (max-width:767px){.laptop-container{margin-top:-140px}.laptop{width:320px}.laptop .laptop-bezel{padding:15px 15px 20px;border-radius:15px}.laptop .laptop-screen{height:125px}.laptop .laptop-base-left,.laptop .laptop-base-right{height:18px}.laptop .laptop-latch{height:6px}}
+
+
+
+
+.features{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding: 0 60px;
+}
+.features .item h3{
+    font-size: 2em;
+    font-weight: 200;
+}
+.features .item{
+    width: 360px;
+    padding: 40px;
+    float: left;
+}
+.features .item:after{
+    clear: both;
+}
+
+.features .item .detail{
+    text-align: left;
+}
+.features .item .icon{
+    display: block;
+    width: 6em;
+    height:6em;
+}
+.icon-free{
+    background: url(free.png) top center/cover no-repeat;
+}
+.icon-data{
+    background: url(data.png) top center/cover no-repeat;
+}
+.icon-wechat{
+    background: url(wechat.png) top center/cover no-repeat;
+}

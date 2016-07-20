@@ -203,11 +203,10 @@ a {
     padding: 3em 0;
     position: relative;
     margin-top: 2em;
+    text-align: center;
 }
 .scan-code{
-    position: absolute;
-    right: 0;
-    top: 3em;
+    width: 9em;
 }
 .footer h3{
     line-height: 1em;
